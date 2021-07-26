@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.paypal.bookingservFunctionalTests.BookingControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.19 s <<< FAILURE! - in com.paypal.bookingservFunctionalTests.BookingControllerTest
+bookingResourceReturnsSuccessfulResponse(com.paypal.bookingservFunctionalTests.BookingControllerTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.boot.test.web.client.TestRestTemplate.postForObject(String, Object, java.lang.Class, Object[])" because "this.restTemplate" is null
+	at com.paypal.bookingservFunctionalTests.BookingControllerTest.bookingResourceReturnsSuccessfulResponse(BookingControllerTest.java:43)
+
